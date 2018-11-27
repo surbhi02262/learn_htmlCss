@@ -1,0 +1,174 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+.header-container{
+height:80px;
+background: black;
+display:flex;
+color:white;
+}
+.logo-container{
+	color:white;
+	padding-left: 110px;
+	padding-top:18px;
+	flex-grow: 1;
+	
+}
+.brand-name{
+	font-weight: 900;
+	font-size:25px;
+}
+.sub-brand-name{
+	font-size: 10px;
+}
+
+.menu-container ul{
+	display: flex;
+	list-style: none;
+	margin:0;
+	padding:0;
+	padding-right: 100px;
+	
+}
+.menu-container ul li{
+	padding: 30px 20px;
+}
+.menu-container ul li a{
+	color:white;
+	text-decoration: none;
+}
+.menubar-container{
+	color:white;
+	font-size: 18px;
+	background: #000000bd;
+}
+.menus{
+	width:70%;
+	margin:0 auto;
+	padding:10px 0px;
+	
+}
+.menus ul{
+display: flex;
+list-style: none;
+margin:0;
+padding: 0;
+}
+.menus ul li{
+	padding:0px 40px;
+}
+.menus ul li a{
+	text-decoration: none;
+	color:white;
+}
+.banner-container{
+	background:#128490;	
+	width:100%;
+	margin:0 auto;
+}
+.banner-image-container{
+	width:70%;
+	margin:0 auto;
+	height:300px;
+}
+.banner-image-container img{
+	height:80%;
+	width:80%;
+	padding-top: 30px;
+}
+.border-line{
+	border:solid #00000030 4px;
+}
+.services-offered{
+	height:300px;
+	padding:0 30px;
+	display: flex;
+
+}
+.box-container{
+	height:100%;
+	width:30%;
+	padding-left: 50px;
+
+}
+.box-container .logo img{
+width:400px;
+height:100px;
+}
+.box-heading{
+	font-weight: 700;
+	font-size: 20px;
+}
+h4{
+	margin:0;
+	padding: 0;
+	margin:10px 0px;
+}
+p{
+	margin:0;
+}
+.pre-heading{
+	background: #80808030;
+	color:black;
+	border-radius: 5px;
+	padding:4px 8px;
+	font-size: 14px;
+}
+.con{
+	padding-top:10px;
+}
+button{
+	padding-top:10px;
+}
+.box-button{
+	background: black;
+	color:#128490;
+	border-radius: 3em;
+	width:120px;
+	padding:4px 0px;
+}
+.foot-container{
+	background: black;
+	height:200px;
+	color:white;
+	display: flex;
+	justify-content: space-around;
+}
+.foot-container h4{
+	font-weight: 600;
+	font-style: 18px;
+	text-transform: uppercase;
+}
+.mid-foot ul {
+	margin:0;
+	padding: 0;
+}
+.pic-cont{
+	width:60px;
+	height:60px;
+	background: orange;
+	margin:10px;
+}
+.gallery-container{
+	display: flex;
+	flex-direction: column;
+}
+.box1,.box2{
+	display: flex;
+}
+.site-container{
+	flex-direction: column;
+}
+.astro{
+	display: flex;
+	padding-bottom: 10px;
+}
+.astro img{
+	height: 40px;
+	width:100px;
+}
+.content{
+	padding-left: 30px;
+}
